@@ -4,11 +4,10 @@ import Vue from 'vue'
 
 // 引入主页面
 import Index from '../containers/Index.vue'
-import Login from '../containers/Login.vue'
+
 // 引入次级页面
-// machine
-// import Machine from '../containers/machine/Index.vue'
-// import MachineType from '../containers/machine/Type.vue'
+import Home from '../containers/Home.vue'
+import About from '../containers/About.vue'
 
 // 引入模块按router-view嵌套路由使用
 // 启用插件
@@ -20,16 +19,16 @@ const routes = [
     path: '/',
     component: Index,
     children: [
-      // {
-      //   path: 'machine',
-      //   component: Machine,
-      //   children: [
-      //     {path: 'type', component: MachineType},
-      //   ]
-      // }
+      {
+        path: 'home',
+        component: Home
+      },
+      {
+        path: 'about',
+        component: About
+      }
     ]
-  },
-  {path: '/login', component: Login}
+  }
 ]
 
 // 传入配置
