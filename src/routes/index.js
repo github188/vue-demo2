@@ -17,17 +17,15 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    component: Index,
-    children: [
-      {
-        path: 'home',
-        component: Home
-      },
-      {
-        path: 'about',
-        component: About
-      }
-    ]
+    component: Index
+  },
+  {
+    path: '/home',
+    component: Home
+  },
+  {
+    path: '/about',
+    component: About
   }
 ]
 

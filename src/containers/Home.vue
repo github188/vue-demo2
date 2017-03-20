@@ -1,7 +1,11 @@
 <template>
-  <h1>home</h1>
+  <div id="container">
+    <NavBar></NavBar>
+    <h1>Home</h1>
+  </div>
 </template>
 <script>
+  import NavBar from '../components/NavBar'
   export default {
     name: 'Home',
     data () {
@@ -16,6 +20,7 @@
     methods: {
     },
     components: {
+      NavBar
     }
   }
 </script>
