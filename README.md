@@ -1,8 +1,8 @@
-# 创建一个包含vue-router和vue组件的webapp
+# 如何在项目中引入和使用vuex
 ## 1.项目描述
 本demo为师峰vue2.0实战系列博客源码 
 
-连接为：http://www.shifeng1993.com/archives/20.html
+连接为：http://www.shifeng1993.com/archives/24.html
 
 注：本项目使用的脚手架均为 https://github.com/shifeng1993/vue-start
 
@@ -24,9 +24,9 @@
 
 ## 2.项目使用
 ### 克隆到本地
-`git clone https://github.com/shifeng1993/demo1.git`
+`git clone https://github.com/shifeng1993/vue-demo2.git`
 ### 进入文件夹并安装依赖
-`cd demo1`
+`cd vue-demo2`
 
 `npm install`
 
